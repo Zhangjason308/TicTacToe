@@ -1,6 +1,7 @@
 import java.util.*;
 
 //TicTacToeModel
+//model should not know how many views there are so make a list
 public class TicTacToe {
 
 
@@ -14,7 +15,7 @@ public class TicTacToe {
     private boolean turn;
     private Status status;
 
-    private List<TicTacToeView> views;
+    private List<TicTacToeView> views; //list of views
 
     public TicTacToe() {
         grid = new char[SIZE][SIZE];
@@ -46,12 +47,12 @@ public class TicTacToe {
 
     public boolean getTurn() {return turn;}
 
-    public void play(int x, int y) {
+    public void play(int x, int y) { //change in state of the game
         if (grid[x][y] != ' ') return;
         grid[x][y] = turn? 'X' : 'O';
         updateStatus();
 
-        for (TicTacToeView v: views) { v.update(this, x, y, turn, status);}
+        for (TicTacToeView v: views) { v.update(new TicTacToeEvent(this, x, y, turn, status));} // its a model because it notifies the view
 
         changeTurn();
     }
