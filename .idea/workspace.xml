@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c975862f-0375-4d62-9dd0-bb76a0711506" name="Changes" comment="Lecture 12 - Nov 2">
-      <change afterPath="$PROJECT_DIR$/src/TicTacToeTest.java" afterDir="false" />
+    <list default="true" id="c975862f-0375-4d62-9dd0-bb76a0711506" name="Changes" comment="Lecture 12 - Nov 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToeFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToeFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "/Users/jasonzhang/IdeaProjects/tictactoe/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jasonzhang/IdeaProjects/tictactoe/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -59,12 +61,42 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TicTacToeTest.testXWon">
+  <component name="RunManager" selected="TestNG.TicTacToeTest">
+    <configuration name="TicTacToeFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicTacToeFrame" />
+      <module name="tictactoe" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicTacToeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tictactoe" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicTacToeTest.initialStatusMustBeUndecided" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tictactoe" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TicTacToeTest" />
       <option name="METHOD_NAME" value="initialStatusMustBeUndecided" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicTacToeTest.testOWon" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tictactoe" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToeTest" />
+      <option name="METHOD_NAME" value="testOWon" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -86,8 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TicTacToeTest.testXWon" />
+        <item itemvalue="TestNG.TicTacToeTest" />
+        <item itemvalue="TestNG.TicTacToeTest.testOWon" />
+        <item itemvalue="Application.TicTacToeFrame" />
         <item itemvalue="TestNG.TicTacToeTest.initialStatusMustBeUndecided" />
+        <item itemvalue="TestNG.TicTacToeTest.testXWon" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667584526015</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lecture 12 - Nov 4">
+      <created>1667653330109</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667653330109</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +173,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lecture 11" />
     <MESSAGE value="Lecture 12 - Nov 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lecture 12 - Nov 2" />
+    <MESSAGE value="Lecture 12 - Nov 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture 12 - Nov 4" />
   </component>
 </project>
